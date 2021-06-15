@@ -6,7 +6,7 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import tk.mybatis.spring.annotation.MapperScan;
 
 @SpringBootApplication
-@EnableDiscoveryClient //cloud E版本后该注解可以去掉
+//@EnableDiscoveryClient //cloud E版本后该注解可以去掉
 @MapperScan("com.person.target.springframedemo.mapper.auto")
 public class SpringFrameDemoApplication {
 
